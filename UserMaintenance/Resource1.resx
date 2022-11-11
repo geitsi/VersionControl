@@ -126,6 +126,9 @@
   <data name="FullName" xml:space="preserve">
     <value>Név:</value>
   </data>
+  <data name="SuccWrite" xml:space="preserve">
+    <value>Sikeres mentés!</value>
+  </data>
   <data name="WriteFile" xml:space="preserve">
     <value>Fájlba írás</value>
   </data>

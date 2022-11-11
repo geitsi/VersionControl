@@ -88,6 +88,15 @@ namespace UserMaintenance {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Sikeres mentés!.
+        /// </summary>
+        public static string SuccWrite {
+            get {
+                return ResourceManager.GetString("SuccWrite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Fájlba írás.
         /// </summary>
         public static string WriteFile {
