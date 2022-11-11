@@ -20,6 +20,7 @@ namespace UserMaintenance
             //label2.Text = Resource1.FirstName; // label2
             button1.Text = Resource1.Add; // button1
             button2.Text = Resource1.WriteFile;
+            button3.Text = Resource1.Delete;
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -60,6 +61,18 @@ namespace UserMaintenance
                         myStream.Write(Encoding.ASCII.GetBytes(users[i].ID + "   " + users[i].FullName + "\n"));
                     }
                     myStream.Close();
+                }
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (listBox1.SelectedIndex != null)
+            {
+                User usertoremove = new User();
+                for (int i = 0; i < users.Count; i++)
+                {
+                    //if (users[i].FullName == listBox1.Items.
                 }
             }
         }
