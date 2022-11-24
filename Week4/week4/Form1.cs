@@ -23,7 +23,7 @@ namespace week4
         {
             InitializeComponent();
             LoadData();
-            //CreateExcel();
+            CreateExcel();
         }
 
         private void Form1_Load(object sender, EventArgs e)
