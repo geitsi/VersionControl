@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend4 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.comboBoxCurrency = new System.Windows.Forms.ComboBox();
             this.dateTimePickerEnd = new System.Windows.Forms.DateTimePicker();
@@ -47,7 +47,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(445, 497);
+            this.dataGridView1.Size = new System.Drawing.Size(459, 726);
             this.dataGridView1.TabIndex = 0;
             // 
             // comboBoxCurrency
@@ -74,6 +74,7 @@
             this.dateTimePickerEnd.Name = "dateTimePickerEnd";
             this.dateTimePickerEnd.Size = new System.Drawing.Size(265, 22);
             this.dateTimePickerEnd.TabIndex = 6;
+            this.dateTimePickerEnd.Value = new System.DateTime(2021, 12, 31, 0, 0, 0, 0);
             this.dateTimePickerEnd.ValueChanged += new System.EventHandler(this.dateTimePickerEnd_ValueChanged);
             // 
             // dateTimePickerStart
@@ -83,21 +84,22 @@
             this.dateTimePickerStart.Name = "dateTimePickerStart";
             this.dateTimePickerStart.Size = new System.Drawing.Size(265, 22);
             this.dateTimePickerStart.TabIndex = 7;
+            this.dateTimePickerStart.Value = new System.DateTime(2020, 1, 1, 0, 0, 0, 0);
             this.dateTimePickerStart.ValueChanged += new System.EventHandler(this.dateTimePickerStart_ValueChanged);
             // 
             // chart1
             // 
-            chartArea4.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea4);
-            legend4.Name = "Legend1";
-            this.chart1.Legends.Add(legend4);
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(477, 65);
             this.chart1.Name = "chart1";
-            series4.ChartArea = "ChartArea1";
-            series4.Legend = "Legend1";
-            series4.Name = "Series1";
-            this.chart1.Series.Add(series4);
-            this.chart1.Size = new System.Drawing.Size(616, 497);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
+            this.chart1.Size = new System.Drawing.Size(975, 726);
             this.chart1.TabIndex = 8;
             this.chart1.Text = "chart1";
             // 
@@ -105,7 +107,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1105, 574);
+            this.ClientSize = new System.Drawing.Size(1464, 803);
             this.Controls.Add(this.chart1);
             this.Controls.Add(this.dateTimePickerStart);
             this.Controls.Add(this.dateTimePickerEnd);

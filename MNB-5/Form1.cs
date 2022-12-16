@@ -45,7 +45,7 @@ namespace MNB_5
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            comboBoxCurrency.SelectedIndex = 1;
         }
         public string Req()
         {
