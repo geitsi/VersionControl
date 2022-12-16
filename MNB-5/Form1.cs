@@ -114,5 +114,20 @@ namespace MNB_5
                 Rates.Add(rate);
             }
         }
+
+        private void dateTimePickerStart_ValueChanged(object sender, EventArgs e)
+        {
+            RefreshData();
+        }
+
+        private void dateTimePickerEnd_ValueChanged(object sender, EventArgs e)
+        {
+            RefreshData();
+        }
+
+        private void comboBoxCurrency_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            RefreshData();
+        }
     }
 }
