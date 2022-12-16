@@ -11,10 +11,6 @@ namespace MNB_5.Entities
         public decimal Value { get; set; }
         public string Currency { get; set; }    
         public DateTime Date { get; set; } 
-        public RateData()
-        {
-
-        }
          
     }
 }
