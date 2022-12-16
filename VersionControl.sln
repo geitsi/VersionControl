@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserMaintenance", "UserMaintenance\UserMaintenance.csproj", "{08A71947-070F-4EAA-879D-FF62FF278776}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserMaintenance", "UserMaintenance\UserMaintenance.csproj", "{08A71947-070F-4EAA-879D-FF62FF278776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "F03LINQ", "F03LINQ\F03LINQ.csproj", "{53AA9645-6346-41F6-A578-D4D0A9F8E2A9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{08A71947-070F-4EAA-879D-FF62FF278776}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08A71947-070F-4EAA-879D-FF62FF278776}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08A71947-070F-4EAA-879D-FF62FF278776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53AA9645-6346-41F6-A578-D4D0A9F8E2A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AA9645-6346-41F6-A578-D4D0A9F8E2A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AA9645-6346-41F6-A578-D4D0A9F8E2A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AA9645-6346-41F6-A578-D4D0A9F8E2A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
